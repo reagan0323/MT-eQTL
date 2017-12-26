@@ -3,7 +3,7 @@ function [Delta,Sigma,P,P_sparse,sparse_ind]=HT_pipeline(Zstat)
 % Input is standardized Z-stat matrix X
 % Output is all model parameters
 % Need to call EM_MT.m
-
+ 
 
 [~,K]=size(Zstat);
 % fit all pairwire models
