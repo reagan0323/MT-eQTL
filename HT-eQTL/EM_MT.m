@@ -4,7 +4,7 @@ function [Delta_opt,Sigma_opt,P_opt,ll_rec]=EM_MT(X,DF,paramstruct)
 % parameter P will be estimated in length (i.e., all 2^K entries) in each
 % iteration, while Delta and Sigma will be estimated mainly based on the
 % two extreme configurations.
-%
+% 
 % Input
 %
 %       X        n*K matrix, Fisher transformed Pearson correlation data;
