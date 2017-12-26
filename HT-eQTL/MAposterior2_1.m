@@ -1,8 +1,7 @@
 function Post= MAposterior2_1(X,Delta,Mu,Sigma,P)
 % This fcn returns posterior probs for all 2^K classes
 % When K is large, this will lead to out-of-memory problem
-%
-% 7/22/12, by Gen Li
+% by Gen Li
 %
 % INPUT
 %       
