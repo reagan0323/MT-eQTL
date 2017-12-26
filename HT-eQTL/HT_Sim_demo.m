@@ -1,4 +1,4 @@
-%% Simulation Study
+%% Simulation Study 
 %
 % Simulate z-statistics from MT model (K=9) with parameters
 %  from pilot 9-tissue analysis
