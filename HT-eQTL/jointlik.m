@@ -39,4 +39,3 @@ w=(1/(2*pi)^(K/2))*(P(index)*sigma_dethfiv); % scalar
 X = X*sigma_hfiv;
 X = X.^2; % reuse X to save memory
 lik=exp(-0.5*sum(X,2))*w;
-
